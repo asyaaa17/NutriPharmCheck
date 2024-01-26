@@ -14,7 +14,7 @@ function Navbar() {
 
             <ul className="nav nav-tabs">
                 <div className="col-5">
-                    <h2>VitaminBad</h2>
+                    <h2>NutriPharmCheck</h2>
                 </div>
 
                 <li className="nav-item">
@@ -41,8 +41,8 @@ function Navbar() {
 
 
 
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        <li className="nav-item dropdown ">
+                            <a className="nav-link dropdown-toggle disabled" data-bs-toggle="dropdown" href="#" role="button"
                                aria-expanded="false">Аккаунт</a>
                             <ul className="dropdown-menu">
                                 <li className="nav-item"><NavLink className="dropdown-item" to='/signup'>Аккаунт</NavLink>
